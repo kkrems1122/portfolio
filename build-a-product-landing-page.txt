@@ -1,0 +1,107 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Buy a Bunny</title>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <img id="header-img" alt="sanrio characters" src="https://i.pinimg.com/736x/2a/b0/fa/2ab0fa2eca7f39733c1ea77e534c6584.jpg"/>
+        <h1>Buy a Bunny</h1>
+        <nav id="nav-bar">
+          <a class="nav-link" href="#my-melody">My Melody</a>
+          <a class="nav-link" href="#kuromi">Kuromi</a>
+          <a class="nav-link" href="#cinnamoroll">Cinnamoroll</a>
+        </nav>
+      </header>
+      <video id="video" src="https://www.youtube.com/watch?v=QXYxCnZRS0M&pp=ygURc2FucmlvIGNoYXJhY3RlcnM%3D" control>Video Not Supported</video>
+      <div id="my-melody">
+        <h1>My Melody</h1>
+        <img src="https://static.wikia.nocookie.net/hello-yoshi/images/9/9f/Mymelodyfront2D.png/revision/latest?cb=20191021195635" alt="my melody">
+        <figcaption>My Melody is known for her pink or red hood, long bunny ears, and bright eyes. She is often depicted as a kawaii version of Little Red Riding Hood, and is kind, calm, and optimistic.</figcaption>
+      </div>
+      <div id="kuromi">
+        <h1>Kuromi</h1>
+        <img src="https://static.wikia.nocookie.net/hellokitty/images/8/8d/Sanrio_Characters_Kuromi_Image016.png/revision/latest?cb=20170404142717" alt="kuromi">
+        <figcaption>Kuromi is rebellious, sassy, and mischievous, with a dark aesthetic. </figcaption>
+      </div>
+      <div id="cinnamoroll">
+        <h1>Cinnamoroll</h1>
+        <img src="https://static.wikia.nocookie.net/hellokitty/images/f/f8/Sanrio_Characters_Cinnamoroll_Image029.png/revision/latest?cb=20170520011554" alt="cinamoroll">
+        <figcaption>Cinnamoroll is shy but friendly, and always wants to help out his friends when they need it.</figcaption>
+      </div>
+    </main>
+    <footer>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <caption>Want to Buy a Bunny?</caption>
+        <input id="email" placeholder="yourname@gmail.com" type="email" name="email">
+      <input id="submit" type="submit">
+      </form>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+html {
+  color: #2e2732;
+  font-family: courier;
+  background: linear-gradient(#FFECF2, #EFAAEC)
+}
+
+#nav-bar {
+  position: fixed;
+  display: flex;
+  justify-content: space-evenly;
+  top: 0;
+  background-color: #2e2732;
+  width: 100%;
+}
+
+a {
+  color: #FFECF2;
+  text-decoration: none;
+}
+
+
+
+#header-img {
+  width: 100%;
+ 
+}
+
+header h1 {
+  text-align: center;
+  font-size: 54px;
+  margin-top: 0;
+  margin-bottom: 2px;
+  text-decoration: underline;
+}
+
+video {
+  width: 100%;
+  
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
+
+footer {
+  background-color: #2e2732;
+  color: #FFECF2;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 6px;
+  margin-top: 4px;
+}
+
+** end of undefined **
+
