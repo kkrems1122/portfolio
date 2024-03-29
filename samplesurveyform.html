@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYO Nu Metal Band</title>
+    <link href="./styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <h1 id="title">Create Your Own <br>Nu Metal Band</h1>
+      <p id="description"><em>Use our form to create your own Nu Metal band!</em></p>
+      <form id="survey-form">
+        <div id="basics"><label for="name" id="name-label">Name</label>
+        <input name="name" id="name" type="text" placeholder="First Last Name" required><br>
+        <label for="email" id="email-label">Email</label>
+        <input id="email" required name="email" type="email" placeholder="youremail@gmail.com"><br>
+        <label for="age" id="number-label">Age</label>
+        <input id="number" name="age" type="number" placeholder="Age" min="13" max="99"><br>
+        <label for="dropdown">Your Instrument</label>
+        <select name="dropdown" type="dropdown" id="dropdown">
+          <option>Choose One...</option>
+          <option>Vocals</option>
+          <option>Guitar</option>
+          <option>Bass</option>
+          <option>Drums</option>
+          <option>Synth/Misc.</option>  
+        </select> </div>
+        <div id="aura" name="aura">
+          <legend for="aura">What will your band's aura be?</legend>
+          <label for="edgy">Edgy</label>
+          <input type="radio" value="edgy" name="edgy">
+          <label for="sexy">Sexy</label>
+          <input value="sexy" type="radio" name="sexy">
+          <label for="tired">Tired</label> 
+          <input value="tired" type="radio" name="tired"> 
+        </div>
+        <div id="substances" name="substances">
+          <legend>What will be your addiction?</legend>
+          <input type="checkbox" id="alcohol" name="alcohol" value="alcohol"><label for="alcohol">Alcohol</label>
+          <input type="checkbox" id="marijuana" name="marijuana"><label for="marijuana" value="marijuana">Marijuana</label> 
+          <input type="checkbox" id="heroin" name="heroin" value="heroin"><label for="heroin">Heroin</label> 
+          <input type="checkbox" id="fentanyl" name="fentanyl" value="fentanyl"><label for="fentanyl">Fentanyl</label> 
+        </div>  
+        <legend for="bio" id="bio-legend">Your Band's Bio</legend>   
+        <textarea id="bio" name="bio" placeholder="Once upon a time..."></textarea>
+        <button id="submit" type="submit">Submit</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>
