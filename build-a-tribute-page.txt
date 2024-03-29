@@ -1,0 +1,98 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chino Moreno</title>
+    <meta charset="utf-8"/>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <main id="main">
+      <h1 id="title">Chino Moreno</h1>
+      <div id="img-div">
+        <img id="image" href="https://scontent-ord5-2.xx.fbcdn.net/v/t39.30808-6/274872582_348136087237633_830742406365809488_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=cclyF4ZHnwEAX_4qufW&_nc_ht=scontent-ord5-2.xx&oh=00_AfAO0WtHusq_o6dBntF1mTuWZcJSJKcOof7iviUm0vMLLg&oe=65FDB754" alt="Chino Moreno"/>
+        <figcaption id="img-caption"><em>Chino Moreno of the metal band Deftones.</em></figcaption>
+      </div>
+      <div id="tribute-info" class="information">
+        <div id="about-deftones">
+          <p>Deftones is an American alternative metal band formed in Sacramento, California, in 1988. Known for their unique blend of heavy guitar riffs, ethereal atmospheres, and emotive vocals, Deftones have garnered critical acclaim and a dedicated fan base over the years. Their music often explores themes of inner turmoil, existentialism, and emotional catharsis, creating a sound that's both aggressive and introspective. With albums like "White Pony," "Around the Fur," and "Diamond Eyes," Deftones have established themselves as influential figures in the alternative metal genre, consistently pushing boundaries and evolving their sound.</p>
+        </div>
+        <div id="about-chino">
+          <p>Chino Moreno is the lead vocalist and occasional guitarist for the American alternative metal band Deftones. Born on June 20, 1973, Moreno is known for his distinctive vocal style, seamlessly shifting between aggressive screams and haunting melodies. His lyrical content often delves into themes of personal struggles, introspection, and emotional intensity, contributing to the band's dark and atmospheric sound. Beyond Deftones, Moreno has been involved in various side projects, showcasing his versatility as a musician. With his dynamic stage presence and powerful voice, Moreno has solidified himself as one of the most iconic figures in the alternative metal scene.</p>
+        </div>
+        <div id="lyrics">
+          <p>Deftones' lyrics often explore themes of inner turmoil, existentialism, and emotional depth, resonating with listeners on a personal level. Here are some notable lines from their songs that have become iconic:
+<br><br>
+1. "Change (In the House of Flies)": "I watched a change in you / It's like you never had wings / Now you feel so alive."
+<br>  <br>
+2. "My Own Summer (Shove It)": "I smell you on me / I'm tasting you in my own / My own summer, warmth, sun, shine on me."
+<br><br>
+3. "Knife Prty": "And as I pull my head out I am without one doubt / Don't wanna be down here soothing my narcissism / I must crucify the ego before it's far too late."
+<br><br>
+4. "Digital Bath": "You move like I want to / To see like your eyes do / We are downstairs where no one can see / New life break away."
+<br><br>
+5. "Be Quiet and Drive (Far Away)": "This town don't feel mine / I'm fast to get away / Far, I dressed you in her clothes / Now drive me far away."
+<br><br>
+6. "Minerva": "God bless you all for the song you saved us / Oh, tonight, oh, tonight / Oh, tonight, oh, tonight."
+<br><br>
+7. "Passenger" (featuring Maynard James Keenan of Tool): "Here I lay / Still and breathless / Just like always / Still, I want some more."
+<br><br>  
+These lyrics capture the emotional depth and poeticism that are characteristic of Deftones' music, resonating with fans across the globe.</p>
+        </div>
+        <p>If you'd like to know more, visit the <a href="https://en.wikipedia.org/wiki/Chino_Moreno" id="tribute-link" target="_blank">Chino Wiki</a>.</p>
+      </div>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#image {
+  max-width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+img {
+  display: block;
+}
+
+* {
+  background-color: black;
+  color: #F9F6EE;
+}
+
+#title {
+  text-align: center;
+  font-family: monospace;
+  font-size: 65px;
+}
+
+#img-caption {
+  font-family: Garamond;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-family: courier;
+  font-size: 16px;
+}
+
+#lyrics p {
+  font-size: 25px;
+}
+
+#about-deftones p {
+  border: 1px solid grey;
+}
+
+#about-chino p {
+  border: 1px solid grey;
+}
+
+** end of undefined **
+
