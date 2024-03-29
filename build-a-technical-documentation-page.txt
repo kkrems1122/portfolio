@@ -1,0 +1,113 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <link href="./styles.css" rel="stylesheet">
+    <title>My Clothes</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>My Clothes</header>
+      <a class="nav-link" href="#work_clothes">Work Clothes</a><br>
+      <a class="nav-link" href="#shirts">Shirts</a><br>
+      <a class="nav-link" href="#jeans_and_leggings">Jeans and Leggings</a><br>
+      <a class="nav-link" href="#athletic">Athletic</a><br>
+      <a class="nav-link" href="#shoes">Shoes</a><br>
+      <a class="nav-link" href="#formal">Formal</a><br>
+      <a class="nav-link" href="#pajamas">Pajamas</a>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="work_clothes">
+        <header>Work Clothes</header>
+        <p>Organizing work clothes in varying shades of brown and black can create a sophisticated and cohesive wardrobe that exudes professionalism and style. Start by categorizing garments by color, separating the rich browns from the deep blacks. Within each color category, arrange items by type, such as trousers, blazers, shirts, and skirts, for easy access and coordination. Utilize storage solutions like hanging organizers or drawers to keep items neatly folded or hung, preventing wrinkles and ensuring a streamlined appearance. Mixing and matching pieces within the same color palette allows for effortless outfit combinations, ensuring a polished look for any professional setting. Whether it's a sleek espresso blazer paired with charcoal trousers or a classic black pencil skirt matched with a chocolate brown blouse, organizing work attire in shades of brown and black enhances both efficiency and style in the workplace.</p>
+        <p>Maintaining a clear distinction between your personal and professional identity through your wardrobe is crucial for achieving a healthy work-life balance. Your attire serves as a visual cue, signaling transitions between these two realms of your life. By carefully selecting work clothes that reflect professionalism, you not only convey respect for your role and workplace but also mentally prepare yourself for the tasks at hand. Conversely, switching into more relaxed attire at home helps signify the shift from work responsibilities to personal time, allowing for better relaxation and detachment from professional stressors. This separation fosters a sense of boundaries, enabling individuals to recharge and engage more fully in both work and personal life.</p>
+      </section>
+      <section class="main-section" id="shirts">
+        <header>Shirts</header>
+        <p>This collection of metalhead band t-shirts embodies the raw energy and rebellious spirit of the genre. Each shirt features bold graphics, intricate illustrations, and iconic logos that pay homage to legendary metal bands. From the blistering solos of classic thrash to the guttural growls of death metal, these tees capture the essence of metal culture, making a fierce statement for any fan.</p>
+        <h3>Top Bands</h3>
+        <ul>
+          <li>Korn</li>
+          <li>Deftones</li>
+          <li>311</li>
+          <li>Chevelle</li>
+          <li>Momentum</li>
+        </ul>
+      </section>
+      <section class="main-section" id="jeans_and_leggings">
+        <header>Jeans and Leggings</header>
+        <p>Good quality denim is essential for durability and longevity, ensuring that your jeans withstand frequent wear and maintain their shape over time. Investing in high-quality denim also guarantees superior comfort and a timeless style that transcends fleeting fashion trends.</p>
+        <code>
+        </code>
+        <p>Leggings with pockets offer both convenience and functionality, providing a practical solution for carrying essentials like keys or a phone during workouts or daily activities. The addition of pockets ensures hands-free movement, enhancing comfort and versatility in active lifestyles.</p>
+      </section>
+      <section class="main-section" id="athletic">
+        <header>Athletic</header>
+        <p>For yoga, lightweight and stretchy materials like moisture-wicking leggings and breathable tops provide flexibility and ease of movement. When swimming, opt for swimwear made of quick-drying, chlorine-resistant fabric for comfort and durability. For weightlifting, choose form-fitting attire such as compression leggings and moisture-wicking tops to enhance mobility and support muscle movement.</p>
+        <code></code>
+      </section>
+      <section class="main-section" id="shoes">
+        <header>Shoes</header>
+        <p>Skate shoes are specifically designed footwear tailored to the demands of skateboarding. They typically feature reinforced construction, padded tongues, and collar for durability and protection during tricks and jumps. Their grippy soles and flat, wide design provide stability and traction, essential for maintaining control on the board while offering comfort for extended skate sessions.</p>
+        <code></code>
+        <p>White laces on boots offer a striking contrast, adding a touch of visual interest and personality to your footwear. Against darker or colored leather, they create a bold statement, drawing attention to the details of the boot. Additionally, white laces can evoke a sense of ruggedness and versatility, complementing various styles from urban streetwear to rugged outdoor attire.</p>
+        <code></code>
+      </section>
+      <section class="main-section" id="formal">
+        <header>Formal</header>
+        <p>Investing in vintage clothing and tailoring your own garments for formal wear offers a unique opportunity to express individual style while contributing to sustainable fashion practices. Vintage pieces often boast quality craftsmanship and timeless designs, allowing for a one-of-a-kind look that stands out from mass-produced options. Moreover, tailoring enables customization to ensure a perfect fit, enhancing both comfort and confidence on special occasions. By embracing vintage and tailoring, you not only celebrate fashion's rich history but also reduce waste and promote a more environmentally conscious approach to dressing elegantly.</p>
+      </section>
+      <section class="main-section" id="pajamas">
+        <header>Pajamas</header>
+        <p>Indulge in ultimate comfort and relaxation with these luxurious all-black pajamas. Crafted from soft, breathable fabrics, they envelop you in a cocoon of coziness, perfect for unwinding after a long day. The sleek black design exudes sophistication while the loose, relaxed fit ensures unrestricted movement, making these pajamas a must-have for lounging in style and comfort.</p>
+        <code></code>
+      </section>
+    </main>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+#navbar {
+  float: left;
+  display: inline;
+  width: 20%;
+  position: fixed;
+  border: 1px solid;
+  padding: 4px;
+}
+
+#main-doc {
+  width: auto;
+  margin-left: 30%;
+}
+
+@media screen and (min-width: 480px) {
+  body {
+    background-color: #A9A9A9;
+  }
+}
+
+* {
+  font-family: monospace;
+}
+
+header {
+  font-size: 25px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+** end of undefined **
+
